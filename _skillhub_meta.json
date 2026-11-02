@@ -1,0 +1,21 @@
+{
+  "name": "工程专题手册",
+  "slug": "engineering-topics",
+  "version": "1.0.0",
+  "installedAt": 1793622819108,
+  "source": "local",
+  "description_zh": "46 篇工程专题加 2 篇速判页：API 设计、MySQL、DDD、分布式、重构、代码审查、测试生成、根因调试、威胁建模、LLM 应用安全、生产就绪与 SLO、Java/Laravel/CMS 专项、前端设计、架构决策与选型、Spec 驱动开发、任务拆解与项目记忆；附本地路径与行段查找器。全文 MIT，可自由分发。",
+  "description_en": "46 engineering topics plus 2 quick-check pages covering API design, databases, DDD, distributed systems, refactoring, code review, test generation, root-cause debugging, threat modeling, LLM app security, production readiness and SLO, language-specific tracks, frontend design, architecture decisions and spec-driven development; MIT licensed and freely redistributable.",
+  "examples_zh": [
+    "按 @mysql-database 检查这个慢查询和索引设计",
+    "用 @threat-modeling 过一遍这个上传接口的信任边界",
+    "这堆遗留代码要重构，先按 @refactoring 给个分步方案",
+    "补回归测试，要求修复前必须失败，参考 @test-generation"
+  ],
+  "examples_en": [
+    "Use @mysql-database to review this slow query and index design",
+    "Walk the trust boundaries of this upload endpoint with @threat-modeling",
+    "Plan a stepwise refactor of this legacy module per @refactoring",
+    "Add regression tests that must fail before the fix, per @test-generation"
+  ]
+}
